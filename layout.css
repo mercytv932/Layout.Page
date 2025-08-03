@@ -1,0 +1,133 @@
+ body{
+    background-color: rgb(34, 118, 187);
+        margin: 0;
+   }
+   header {
+    display: flex;
+        justify-content: flex-start;
+    background-color: rgb(15, 255, 123);
+    padding: 18px 30px;
+   
+  }
+
+  nav a{
+    color: #f4f4f4;
+    margin: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 525;
+  }
+  nav a:hover{
+    color:#064f9d;
+    opacity: 0.8s;
+  }
+ .contact{
+  position:fixed;
+   top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  padding: 18px 30px;
+  color: #f4f4f4;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 525;
+   
+ }
+
+ .contact:hover{
+   color:#064f9d;
+    opacity: 0.8s;
+ }
+
+
+ .cover{
+  height: 377px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f03d76
+ }
+
+
+   .container{
+        display: grid;
+        gap: 20px;
+        padding: 20px;
+        grid-template-rows: 1fr;
+         grid-template-columns: repeat(4, 1fr);
+      }
+
+  .image img {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    object-fit: contain;
+    font-size: 125px;
+    transition: all 0.3s linear;
+  }        
+
+  .image {
+  background-color:rgba(54, 51, 51, 0.906);
+  height: 280px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid rgb(108, 98, 98);
+
+}
+
+footer{
+display: flex;
+background-color: salmon;
+justify-content: space-between;
+padding-left: 50px;
+padding-right: 50px;
+color: #f4f4f4;
+font-family: sans-serif;
+font-weight: 525;
+}
+
+
+.div1:hover{
+color: #064f9d;
+opacity: 0.8s;
+cursor: pointer;  
+text-decoration: underline;
+}
+
+
+.div2:hover{
+
+  color: #064f9d;
+opacity: 0.8s;
+cursor: pointer;  
+text-decoration: underline;
+
+}
+
+
+.div3:hover{
+color: #064f9d;
+opacity: 0.8s;
+cursor: pointer;  
+text-decoration: underline;
+
+
+}
+
+
+.div4:hover{
+color: #064f9d;
+opacity: 0.8s;
+cursor: pointer;  
+text-decoration: underline;
+
+}
